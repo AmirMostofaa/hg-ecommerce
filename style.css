@@ -1,0 +1,173 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: font-family: 'Lato',
+    ;
+}
+
+
+.header {
+    margin: 30px 0px 20px 0px;
+}
+.logo {
+    max-width: 120px
+}
+.p-2 a {
+    padding: 0px 10px;
+    color: rgb(197, 93, 93);
+    font-weight: 600;
+}
+a:hover {
+    text-decoration: none;
+}
+.menu {
+    padding: 0px 15px
+}
+.content p {
+    color: rgb(197, 93, 93);
+    width: 70%;
+    padding: 25px 0px;
+}
+button{
+    color: white;
+    background-color: black;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+button i {
+    padding-left: 8px;
+}
+
+li.active {
+    background-color: yellow;
+}
+
+.section-padding {
+    padding: 150px 0px;
+}
+
+.section {
+    padding-top: 50px;
+}
+.card {
+    padding: 40px 50px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+-webkit-box-shadow: -1px 0px 13px -1px rgba(126, 195, 204, 1);
+-moz-box-shadow: -1px 0px 13px -1px rgba(126, 195, 204, 1);
+box-shadow: -1px 0px 13px -1px rgba(126, 195, 204, 1);
+}
+
+
+.category {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.category::after {
+    content: '';
+    background-color: orange;
+    position: absolute;
+    height: 6px;
+    width: 60%;
+    left: calc(50% - 30%);
+    bottom: 0;
+    border-radius: 8px;
+}
+
+.cate {
+    padding: 20px;
+    border-radius: 0px 10px 0px 10px;
+    -webkit-box-shadow: -1px 0px 13px -1px rgba(126, 195, 204, 1);
+    -moz-box-shadow: -1px 0px 13px -1px rgba(126, 195, 204, 1);
+    box-shadow: -1px 0px 13px -1px rgba(126, 195, 204, 1);
+}
+.one {
+    margin-bottom: 20px;
+}
+
+
+.who-area {
+    background-color: #bfcfe0;
+    color: #06201c;
+}
+
+.who-area p {
+    font-size: 15px;
+    color: #141d25;
+}
+
+.who-area h4 {
+    color: black;
+    padding-bottom: 20px;
+}
+
+.who-one img {
+    padding-bottom: 10px;
+}
+
+.who-one p {
+    padding-bottom: 10px;
+}
+
+.who-one a {
+    color: #141d25;
+    font-weight: 600;
+    margin-top: 20px;
+
+}
+
+.who-three>p {
+    padding-bottom: 20px;
+}
+
+
+.single-who-contact {
+    display: flex;
+    padding-bottom: 4px;
+    color: ##141d25;
+}
+
+.sicon {
+    padding-right: 10px;
+}
+
+.who-four p {
+    padding-bottom: 15px;
+}
+
+.form {
+    width: auto;
+    background-color: #4e5c6c;
+    border-radius: 3px;
+}
+
+.form input {
+    padding: 10px 5px;
+    background-color: #4e5c6c;
+    border: none;
+    color: #00bc9c;
+}
+
+input[type="email"] {
+    color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+.form input[type="submit"] {
+    padding: 5px 6px;
+    background-color: #00bc9c;
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin-left: -20px;
+}
